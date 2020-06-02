@@ -1,0 +1,33 @@
+/* 
+File name: index.css
+Purpose: Main CSS file for the "first" project of html-layout.
+Author: Veronica Bakanowicz
+ */
+
+body {
+    background-color: darkgray;
+    margin: 0;
+    width:100%;
+    height: 100vh;
+}
+
+ .header {
+     background-color: dimgray;
+     width: 100%;
+     height: 15vh;
+ }
+
+ .main {
+     background-color: white;
+     margin: 0 auto;
+     width: 70%;
+     height: 75vh;
+ }
+
+ .footer {
+     /* clear: both; */
+     margin: 0 auto;
+     background-color: darkblue;
+     width: 70%;
+     height: 10%;
+ }
