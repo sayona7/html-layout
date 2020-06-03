@@ -1,0 +1,78 @@
+/* 
+File name: index.css
+Purpose: Main CSS file for the second project of html-layout.
+Author: Veronica Bakanowicz
+ */
+
+body {
+    margin: 0;
+    padding: 25px;
+}
+
+ .header {
+     border: black solid 5px;
+     padding: 10px;
+     margin: 10px;
+     box-sizing: border-box;
+     width: 95%;
+ }
+
+ .purple {
+     background-color: purple;
+     width: 5vw;
+     height: 15vh;
+     display: inline-block;
+     margin-right: 10px;
+ }
+
+ .green {
+     background-color: green;
+     width: 400px;
+     height: 180px;
+     display: inline-block;
+     margin-left: 15px;
+ }
+
+ .circle {
+     display: inline-block;
+     background-color: lightblue;
+     border-radius: 50%;
+     width: 180px;
+     height: 180px;
+     margin-left: 25px;
+ }
+
+ .main {
+     background-color: white;
+     width: 95%;
+     border: black dotted;
+     margin-left: 10px;
+     margin-top: 20px;
+     padding: 50px;
+     box-sizing: border-box;
+ }
+
+ .box1 {
+     background-color: lightyellow;
+     width: 100%;
+     height: 150px;
+     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+ }
+
+ .container {
+     box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+     width: 50%;
+     background-color: white;
+     box-sizing: border-box;
+     margin: 100px auto;
+     padding: 100px;
+     border: 1px solid #ccc;
+     margin-top: 20px;
+ }
+
+ .container h1 {
+     text-align: center;
+     color: blue;
+     letter-spacing: 5px;
+     width: 100%;
+ }
